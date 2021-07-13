@@ -1,0 +1,1058 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "charger-schdoc"
+Date "13 07 2021"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VBUS VBUS
+U 1 1 60ED9955
+P 5350 1950
+F 0 "VBUS" H 5350 1950 20  0000 C CNN
+F 1 "VBUS" H 5350 1880 30  0000 C CNN
+F 2 "" H 5350 1950 70  0000 C CNN
+F 3 "" H 5350 1950 70  0000 C CNN
+	1    5350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS VBUS_2
+U 1 1 60ED9954
+P 4850 1250
+F 0 "VBUS_2" H 4850 1250 20  0000 C CNN
+F 1 "VBUS" H 4850 1180 30  0000 C CNN
+F 2 "" H 4850 1250 70  0000 C CNN
+F 3 "" H 4850 1250 70  0000 C CNN
+	1    4850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND
+U 1 1 60ED9953
+P 4850 2550
+F 0 "GND" H 4850 2690 20  0000 C CNN
+F 1 "GND" H 4850 2660 30  0000 C CNN
+F 2 "" H 4850 2550 70  0000 C CNN
+F 3 "" H 4850 2550 70  0000 C CNN
+	1    4850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS VBUS_3
+U 1 1 60ED9952
+P 4250 1250
+F 0 "VBUS_3" H 4250 1250 20  0000 C CNN
+F 1 "VBUS" H 4250 1180 30  0000 C CNN
+F 2 "" H 4250 1250 70  0000 C CNN
+F 3 "" H 4250 1250 70  0000 C CNN
+	1    4250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS VBUS_4
+U 1 1 60ED9951
+P 3550 1250
+F 0 "VBUS_4" H 3550 1250 20  0000 C CNN
+F 1 "VBUS" H 3550 1180 30  0000 C CNN
+F 2 "" H 3550 1250 70  0000 C CNN
+F 3 "" H 3550 1250 70  0000 C CNN
+	1    3550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS VBUS_5
+U 1 1 60ED9950
+P 4550 3350
+F 0 "VBUS_5" H 4550 3350 20  0000 C CNN
+F 1 "VBUS" H 4550 3280 30  0000 C CNN
+F 2 "" H 4550 3350 70  0000 C CNN
+F 3 "" H 4550 3350 70  0000 C CNN
+	1    4550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_2
+U 1 1 60ED994F
+P 7550 3350
+F 0 "GND_2" H 7550 3490 20  0000 C CNN
+F 1 "GND" H 7550 3460 30  0000 C CNN
+F 2 "" H 7550 3350 70  0000 C CNN
+F 3 "" H 7550 3350 70  0000 C CNN
+	1    7550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_3
+U 1 1 60ED994E
+P 8550 3850
+F 0 "GND_3" H 8550 3990 20  0000 C CNN
+F 1 "GND" H 8550 3960 30  0000 C CNN
+F 2 "" H 8550 3850 70  0000 C CNN
+F 3 "" H 8550 3850 70  0000 C CNN
+	1    8550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_4
+U 1 1 60ED994D
+P 7950 3650
+F 0 "GND_4" H 7950 3790 20  0000 C CNN
+F 1 "GND" H 7950 3760 30  0000 C CNN
+F 2 "" H 7950 3650 70  0000 C CNN
+F 3 "" H 7950 3650 70  0000 C CNN
+	1    7950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_5
+U 1 1 60ED994C
+P 8250 3750
+F 0 "GND_5" H 8250 3890 20  0000 C CNN
+F 1 "GND" H 8250 3860 30  0000 C CNN
+F 2 "" H 8250 3750 70  0000 C CNN
+F 3 "" H 8250 3750 70  0000 C CNN
+	1    8250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VLIPO VLIPO
+U 1 1 60ED994B
+P 8950 2450
+F 0 "VLIPO" H 8950 2450 20  0000 C CNN
+F 1 "VLIPO" H 8950 2380 30  0000 C CNN
+F 2 "" H 8950 2450 70  0000 C CNN
+F 3 "" H 8950 2450 70  0000 C CNN
+	1    8950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_6
+U 1 1 60ED994A
+P 8950 3850
+F 0 "GND_6" H 8950 3990 20  0000 C CNN
+F 1 "GND" H 8950 3960 30  0000 C CNN
+F 2 "" H 8950 3850 70  0000 C CNN
+F 3 "" H 8950 3850 70  0000 C CNN
+	1    8950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBAT VBAT
+U 1 1 60ED9949
+P 7650 2150
+F 0 "VBAT" H 7650 2150 20  0000 C CNN
+F 1 "VBAT" H 7650 2080 30  0000 C CNN
+F 2 "" H 7650 2150 70  0000 C CNN
+F 3 "" H 7650 2150 70  0000 C CNN
+	1    7650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS VBUS_6
+U 1 1 60ED9948
+P 1450 1950
+F 0 "VBUS_6" H 1450 1950 20  0000 C CNN
+F 1 "VBUS" H 1450 1880 30  0000 C CNN
+F 2 "" H 1450 1950 70  0000 C CNN
+F 3 "" H 1450 1950 70  0000 C CNN
+	1    1450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_7
+U 1 1 60ED9947
+P 1150 3450
+F 0 "GND_7" H 1150 3590 20  0000 C CNN
+F 1 "GND" H 1150 3560 30  0000 C CNN
+F 2 "" H 1150 3450 70  0000 C CNN
+F 3 "" H 1150 3450 70  0000 C CNN
+	1    1150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBAT VBAT_2
+U 1 1 60ED9946
+P 1050 5050
+F 0 "VBAT_2" H 1050 5050 20  0000 C CNN
+F 1 "VBAT" H 1050 4980 30  0000 C CNN
+F 2 "" H 1050 5050 70  0000 C CNN
+F 3 "" H 1050 5050 70  0000 C CNN
+	1    1050 5050
+	1    0    0    -1  
+$EndComp
+Text Notes 6850 4050 0    48   ~ 10
+Charge Rate = 1000V/PROG1
+Text Notes 7300 4200 0    48   ~ 10
+1k = 1000mA
+Text Notes 7300 4300 0    48   ~ 10
+2k = 500mA
+Text Notes 7950 4350 0    48   ~ 10
+I termination = 1000V/PROG3
+$Comp
+L power:GND GND_8
+U 1 1 60ED9945
+P 1050 6250
+F 0 "GND_8" H 1050 6390 20  0000 C CNN
+F 1 "GND" H 1050 6360 30  0000 C CNN
+F 2 "" H 1050 6250 70  0000 C CNN
+F 3 "" H 1050 6250 70  0000 C CNN
+	1    1050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBAT VBAT_3
+U 1 1 60ED9944
+P 2750 4550
+F 0 "VBAT_3" H 2750 4550 20  0000 C CNN
+F 1 "VBAT" H 2750 4480 30  0000 C CNN
+F 2 "" H 2750 4550 70  0000 C CNN
+F 3 "" H 2750 4550 70  0000 C CNN
+	1    2750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_9
+U 1 1 60ED9943
+P 1750 7150
+F 0 "GND_9" H 1750 7290 20  0000 C CNN
+F 1 "GND" H 1750 7260 30  0000 C CNN
+F 2 "" H 1750 7150 70  0000 C CNN
+F 3 "" H 1750 7150 70  0000 C CNN
+	1    1750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_10
+U 1 1 60ED9942
+P 4550 6450
+F 0 "GND_10" H 4550 6590 20  0000 C CNN
+F 1 "GND" H 4550 6560 30  0000 C CNN
+F 2 "" H 4550 6450 70  0000 C CNN
+F 3 "" H 4550 6450 70  0000 C CNN
+	1    4550 6450
+	1    0    0    -1  
+$EndComp
+Text Notes 2150 7750 0    60   ~ 0
+pin12 LBO(Low Battery Output Detection pin) is unused
+Text GLabel 2750 5050 2    60   BiDi ~ 0
+EN
+Text GLabel 4350 5650 2    60   BiDi ~ 0
+LBO
+$Comp
+L power:GND GND_11
+U 1 1 60ED9941
+P 5750 6850
+F 0 "GND_11" H 5750 6990 20  0000 C CNN
+F 1 "GND" H 5750 6960 30  0000 C CNN
+F 2 "" H 5750 6850 70  0000 C CNN
+F 3 "" H 5750 6850 70  0000 C CNN
+	1    5750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V 5V
+U 1 1 60ED9940
+P 5750 5050
+F 0 "5V" H 5750 5050 20  0000 C CNN
+F 1 "5V" H 5750 4980 30  0000 C CNN
+F 2 "" H 5750 5050 70  0000 C CNN
+F 3 "" H 5750 5050 70  0000 C CNN
+	1    5750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_12
+U 1 1 60ED993F
+P 4950 7150
+F 0 "GND_12" H 4950 7290 20  0000 C CNN
+F 1 "GND" H 4950 7260 30  0000 C CNN
+F 2 "" H 4950 7150 70  0000 C CNN
+F 3 "" H 4950 7150 70  0000 C CNN
+	1    4950 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS VBUS_7
+U 1 1 60ED993E
+P 9150 5650
+F 0 "VBUS_7" H 9150 5650 20  0000 C CNN
+F 1 "VBUS" H 9150 5580 30  0000 C CNN
+F 2 "" H 9150 5650 70  0000 C CNN
+F 3 "" H 9150 5650 70  0000 C CNN
+	1    9150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBAT VBAT_4
+U 1 1 60ED993D
+P 8950 5750
+F 0 "VBAT_4" H 8950 5750 20  0000 C CNN
+F 1 "VBAT" H 8950 5680 30  0000 C CNN
+F 2 "" H 8950 5750 70  0000 C CNN
+F 3 "" H 8950 5750 70  0000 C CNN
+	1    8950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VLIPO VLIPO_2
+U 1 1 60ED993C
+P 8750 5950
+F 0 "VLIPO_2" H 8750 5950 20  0000 C CNN
+F 1 "VLIPO" H 8750 5880 30  0000 C CNN
+F 2 "" H 8750 5950 70  0000 C CNN
+F 3 "" H 8750 5950 70  0000 C CNN
+	1    8750 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 6050 2    60   BiDi ~ 0
+EN
+$Comp
+L power:+5V 5V_2
+U 1 1 60ED993B
+P 9150 6450
+F 0 "5V_2" H 9150 6450 20  0000 C CNN
+F 1 "5V" H 9150 6380 30  0000 C CNN
+F 2 "" H 9150 6450 70  0000 C CNN
+F 3 "" H 9150 6450 70  0000 C CNN
+	1    9150 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_13
+U 1 1 60ED993A
+P 8450 6250
+F 0 "GND_13" H 8450 6390 20  0000 C CNN
+F 1 "GND" H 8450 6360 30  0000 C CNN
+F 2 "" H 8450 6250 70  0000 C CNN
+F 3 "" H 8450 6250 70  0000 C CNN
+	1    8450 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8250 6450 2    60   BiDi ~ 0
+LBO
+Text Notes 6850 7250 0    60   ~ 0
+Lithium Polymer Battery Charger with 5V Boost Converter
+Text Notes 8950 7850 0    60   ~ 0
+Louis
+Text Notes 9050 7550 0    60   ~ 0
+1.0.0
+Wire Notes Line
+	6150 3950 850  3950
+Wire Notes Line
+	6150 4450 6150 3950
+Wire Notes Line
+	9950 4450 6150 4450
+Text Notes 1050 1050 0    60   ~ 0
+Lithium Polymer Charger with Micro USB Input
+Text Notes 1050 4150 0    60   ~ 0
+5V Boost Converter (2A switch current)
+Text Label 4850 1950 0    60   ~ 0
+Vnode
+Text Notes 3750 950  0    60   ~ 0
+If Vnode < 1.21V, charging current is reduced
+Text Notes 7950 1950 0    60   ~ 0
+Voltage at R24 should be between 0.25V and 1.24V
+Text Notes 5750 950  0    60   ~ 0
+SEL = High, 1.65A is shared by system load and lithium polymer charging current
+Text Notes 5750 1150 0    60   ~ 0
+PROG2 = High, 5 unit load input current from USB port(500mA)
+Text Notes 5750 1350 0    60   ~ 0
+*TE = High, Timer is disabled
+Text Notes 5750 1550 0    60   ~ 0
+CE = High, charger feature is enabled
+Text Notes 7950 2150 0    60   ~ 0
+Voltage at R24 ~~= 50uA x R24
+Text Label 1750 6450 0    60   ~ 0
+Vlbi
+Text Notes 2150 7350 0    60   ~ 0
+Vlbi = 0.34/2.14*VBAT, Vlbi should be >0.5V
+Text Notes 2150 7550 0    60   ~ 0
+when VBAT < 3.3V, LBO is low indicating low battery state
+Wire Wire Line
+	5550 2250 5350 2250
+Wire Wire Line
+	4850 1350 4850 1250
+Wire Wire Line
+	5150 1950 4850 1950
+Wire Wire Line
+	5150 2450 5150 1950
+Wire Wire Line
+	5550 2450 5150 2450
+Wire Wire Line
+	4250 1350 4250 1250
+Wire Wire Line
+	4250 2050 4250 1850
+Wire Wire Line
+	3550 1250 3550 1550
+Wire Wire Line
+	4250 2850 4250 2550
+Wire Wire Line
+	5050 2850 4250 2850
+Wire Wire Line
+	5050 2650 5050 2850
+Wire Wire Line
+	5550 2650 5050 2650
+Wire Wire Line
+	3550 3050 3550 2550
+Wire Wire Line
+	5150 3050 3550 3050
+Wire Wire Line
+	5150 2750 5150 3050
+Wire Wire Line
+	5550 2750 5150 2750
+Wire Wire Line
+	5550 3150 5350 3150
+Wire Wire Line
+	5350 2950 5350 3050
+Wire Wire Line
+	5550 2950 5350 2950
+Wire Wire Line
+	7550 3050 7350 3050
+Wire Wire Line
+	7550 3150 7550 3050
+Wire Wire Line
+	7550 3250 7350 3250
+Wire Wire Line
+	5350 3350 4550 3350
+Wire Wire Line
+	5550 3350 5350 3350
+Wire Wire Line
+	5550 3250 5550 3350
+Wire Wire Line
+	5350 3150 5350 3350
+Wire Wire Line
+	5350 3050 5350 3150
+Wire Wire Line
+	5550 3050 5350 3050
+Wire Wire Line
+	5350 2250 5350 1950
+Wire Wire Line
+	5350 2350 5350 2250
+Wire Wire Line
+	5550 2350 5350 2350
+Wire Wire Line
+	7550 3250 7550 3350
+Wire Wire Line
+	7550 3150 7550 3250
+Wire Wire Line
+	7350 3150 7550 3150
+Wire Wire Line
+	4850 1950 4850 1850
+Wire Wire Line
+	4850 2050 4850 1950
+Wire Wire Line
+	7950 2850 7350 2850
+Wire Wire Line
+	7950 3150 7950 2850
+Wire Wire Line
+	8250 2950 7350 2950
+Wire Wire Line
+	8250 3250 8250 2950
+Wire Wire Line
+	8550 2750 8550 3350
+Wire Wire Line
+	7350 2750 8550 2750
+Wire Wire Line
+	9250 2650 9250 2950
+Wire Wire Line
+	8950 2650 9250 2650
+Wire Wire Line
+	7650 2250 7350 2250
+Wire Wire Line
+	7650 2150 7650 2250
+Wire Wire Line
+	7650 2350 7350 2350
+Wire Wire Line
+	7650 2250 7650 2350
+Wire Wire Line
+	8950 2650 7350 2650
+Wire Wire Line
+	1450 2250 1450 1950
+Wire Wire Line
+	2050 2250 1450 2250
+Wire Wire Line
+	1150 2250 1450 2250
+Wire Wire Line
+	1150 2550 1150 2250
+Wire Wire Line
+	1750 2650 2050 2650
+Wire Wire Line
+	1750 2850 1750 2650
+Wire Wire Line
+	2050 2850 1750 2850
+Wire Wire Line
+	1750 2950 2050 2950
+Wire Wire Line
+	1750 2850 1750 2950
+Wire Wire Line
+	1750 3050 1750 2950
+Wire Wire Line
+	2050 3050 1750 3050
+Wire Wire Line
+	1750 3150 1750 3050
+Wire Wire Line
+	2050 3150 1750 3150
+Wire Wire Line
+	1750 3250 1750 3150
+Wire Wire Line
+	2050 3250 1750 3250
+Wire Wire Line
+	1750 3350 1750 3250
+Wire Wire Line
+	2050 3350 1750 3350
+Wire Wire Line
+	1150 3350 1750 3350
+Wire Wire Line
+	1050 5150 2950 5150
+Wire Wire Line
+	2650 5450 2450 5450
+Wire Wire Line
+	2950 5450 2650 5450
+Wire Wire Line
+	2650 5550 2650 5450
+Wire Wire Line
+	2950 5550 2650 5550
+Wire Wire Line
+	2750 5350 2750 5050
+Wire Wire Line
+	2950 5350 2750 5350
+Wire Wire Line
+	1750 5450 1750 5950
+Wire Wire Line
+	2450 5650 2950 5650
+Wire Wire Line
+	2450 6450 2450 5650
+Wire Wire Line
+	1750 6450 2450 6450
+Wire Wire Line
+	1750 6550 1750 6450
+Wire Wire Line
+	2550 5750 2950 5750
+Wire Wire Line
+	2550 7050 2550 5750
+Wire Wire Line
+	1750 7050 2550 7050
+Wire Wire Line
+	1750 7150 1750 7050
+Wire Wire Line
+	4550 6250 4350 6250
+Wire Wire Line
+	4550 6450 4550 6250
+Wire Wire Line
+	4550 6150 4350 6150
+Wire Wire Line
+	4550 6250 4550 6150
+Wire Wire Line
+	4550 6050 4350 6050
+Wire Wire Line
+	4550 6150 4550 6050
+Wire Wire Line
+	4550 5950 4350 5950
+Wire Wire Line
+	4550 6050 4550 5950
+Wire Wire Line
+	4550 5850 4350 5850
+Wire Wire Line
+	4550 5950 4550 5850
+Wire Wire Line
+	4650 5250 4350 5250
+Wire Wire Line
+	4650 5350 4650 5250
+Wire Wire Line
+	4650 5150 4350 5150
+Wire Wire Line
+	4650 5250 4650 5150
+Wire Wire Line
+	9150 5750 9150 5650
+Wire Wire Line
+	9250 5750 9150 5750
+Wire Wire Line
+	8950 5850 8950 5750
+Wire Wire Line
+	9250 5850 8950 5850
+Wire Wire Line
+	8750 5950 9250 5950
+Wire Wire Line
+	8650 6050 9250 6050
+Wire Wire Line
+	9250 6450 9150 6450
+Wire Wire Line
+	8850 6450 8650 6450
+Wire Wire Line
+	8850 6350 8850 6450
+Wire Wire Line
+	9250 6350 8850 6350
+Wire Wire Line
+	8850 6250 9250 6250
+Wire Wire Line
+	8450 6250 8850 6250
+Wire Wire Line
+	8850 6150 9250 6150
+Wire Wire Line
+	8850 6250 8850 6150
+Wire Wire Line
+	6250 5950 6250 5850
+Wire Wire Line
+	8950 2550 7350 2550
+Wire Wire Line
+	8950 2450 8950 2550
+Wire Wire Line
+	7350 2450 8950 2450
+Wire Wire Line
+	8950 2550 8950 2650
+Wire Wire Line
+	5750 5050 5750 5350
+Wire Wire Line
+	4650 5350 4350 5350
+Wire Wire Line
+	4950 5350 4650 5350
+Wire Wire Line
+	5350 5350 4950 5350
+Wire Wire Line
+	4950 6350 4950 6050
+Wire Wire Line
+	4950 5550 4950 5350
+Wire Wire Line
+	5750 5650 5750 6650
+Wire Wire Line
+	5750 6850 5750 6650
+Wire Wire Line
+	5750 5350 5350 5350
+Wire Wire Line
+	6250 5350 5750 5350
+Wire Wire Line
+	6950 5350 6250 5350
+Wire Wire Line
+	6950 5850 6950 5350
+Wire Wire Line
+	6950 6650 6950 5950
+Wire Wire Line
+	6250 6650 6950 6650
+Wire Wire Line
+	5350 6650 5350 5650
+Wire Wire Line
+	5750 6650 5350 6650
+Wire Wire Line
+	6250 6650 5750 6650
+Wire Wire Line
+	6250 6450 6250 6650
+Wire Wire Line
+	8950 2650 8950 2750
+Wire Wire Line
+	8950 3250 8950 3850
+Wire Wire Line
+	9250 3250 8950 3250
+Wire Wire Line
+	9250 3050 9250 3250
+Wire Wire Line
+	8950 3250 8950 3050
+Wire Wire Line
+	1050 6050 1050 5850
+Wire Wire Line
+	1450 6050 1050 6050
+Wire Wire Line
+	1450 5850 1450 6050
+Wire Wire Line
+	1050 6250 1050 6050
+Wire Wire Line
+	1450 5450 1750 5450
+Wire Wire Line
+	1050 5450 1450 5450
+Wire Wire Line
+	1050 5150 1050 5450
+Wire Wire Line
+	1050 5050 1050 5150
+Wire Wire Line
+	1750 5450 1850 5450
+Wire Wire Line
+	1450 5550 1450 5450
+Wire Wire Line
+	1050 5550 1050 5450
+Wire Wire Line
+	2950 6850 2950 5850
+Wire Wire Line
+	4750 6850 2950 6850
+Wire Wire Line
+	4750 6350 4750 6850
+Wire Wire Line
+	4950 6350 4750 6350
+Wire Wire Line
+	4950 6650 4950 6350
+Wire Wire Line
+	1150 3350 1150 2850
+Wire Wire Line
+	1150 3450 1150 3350
+Text Label 4950 6350 0    60   ~ 0
+Vfb
+Text Notes 4750 4450 0    60   ~ 0
+Vfb should be near 0.5V
+Connection ~ 1050 6050
+Connection ~ 1050 5450
+Connection ~ 1050 5150
+Connection ~ 1150 3350
+Connection ~ 1450 5450
+Connection ~ 1450 2250
+Connection ~ 1750 7050
+Connection ~ 1750 6450
+Connection ~ 1750 5450
+Connection ~ 1750 3350
+Connection ~ 1750 3250
+Connection ~ 1750 3150
+Connection ~ 1750 3050
+Connection ~ 1750 2950
+Connection ~ 1750 2850
+Connection ~ 2650 5450
+Connection ~ 4550 6250
+Connection ~ 4550 6150
+Connection ~ 4550 6050
+Connection ~ 4550 5950
+Connection ~ 4650 5350
+Connection ~ 4650 5250
+Connection ~ 4850 1950
+Connection ~ 4950 6350
+Connection ~ 4950 5350
+Connection ~ 5350 5350
+Connection ~ 5350 3350
+Connection ~ 5350 3150
+Connection ~ 5350 3050
+Connection ~ 5350 2250
+Connection ~ 5750 6650
+Connection ~ 5750 5350
+Connection ~ 6250 6650
+Connection ~ 6250 5350
+Connection ~ 7550 3250
+Connection ~ 7550 3150
+Connection ~ 7650 2250
+Connection ~ 8850 6250
+Connection ~ 8950 3250
+Connection ~ 8950 2650
+Connection ~ 8950 2550
+$Comp
+L charger-schdoc-rescue:MCP73871-3CAI_ML- U1
+U 1 1 60ED9939
+P 6450 2650
+F 0 "U1" H 5658 3250 60  0000 L BNN
+F 1 "MCP73871-3CAI/ML" H 5658 1750 60  0000 L BNN
+F 2 "" H 5658 1750 60  0000 C CNN
+F 3 "" H 5658 1750 60  0000 C CNN
+	1    6450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R23
+U 1 1 60ED9938
+P 8150 3650
+F 0 "R23" V 8360 3510 60  0000 R TNN
+F 1 "100k" V 8160 3510 60  0000 R TNN
+F 2 "" H 8160 3510 60  0000 C CNN
+F 3 "" H 8160 3510 60  0000 C CNN
+	1    8150 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Header_2- B1
+U 1 1 60ED9937
+P 9450 2850
+F 0 "B1" H 9450 2850 60  0000 L BNN
+F 1 "BATTERY" H 9450 2450 60  0000 L BNN
+F 2 "" H 9450 2450 60  0000 C CNN
+F 3 "" H 9450 2450 60  0000 C CNN
+	1    9450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger-schdoc-rescue:USB3075-30-A- Micro~USB
+U 1 1 60ED9936
+P 2450 2550
+F 0 "Micro USB" H 2150 2950 60  0000 L BNN
+F 1 "USB3075-30-A" H 2150 1550 60  0000 L BNN
+F 2 "" H 2150 1550 60  0000 C CNN
+F 3 "" H 2150 1550 60  0000 C CNN
+	1    2450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger-schdoc-rescue:TPS61090RSAR- U3
+U 1 1 60ED9935
+P 3650 5450
+F 0 "U3" H 3150 5850 60  0000 L BNN
+F 1 "TPS61090RSAR" H 3150 4450 60  0000 L BNN
+F 2 "" H 3150 4450 60  0000 C CNN
+F 3 "" H 3150 4450 60  0000 C CNN
+	1    3650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger-schdoc-rescue:Cap_Semi- C12
+U 1 1 60ED9934
+P 1350 5750
+F 0 "C12" V 1360 5560 60  0000 R TNN
+F 1 "0.1uF" V 1160 5560 60  0000 R TNN
+F 2 "" H 1160 5560 60  0000 C CNN
+F 3 "" H 1160 5560 60  0000 C CNN
+	1    1350 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Inductor- L2
+U 1 1 60ED9933
+P 1950 5350
+F 0 "L2" H 1950 5300 60  0000 L BNN
+F 1 "6.8uH" H 1950 5020 60  0000 L BNN
+F 2 "" H 1950 5020 60  0000 C CNN
+F 3 "" H 1950 5020 60  0000 C CNN
+	1    1950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R25
+U 1 1 60ED9932
+P 2650 4950
+F 0 "R25" V 2860 4810 60  0000 R TNN
+F 1 "200k" V 2660 4810 60  0000 R TNN
+F 2 "" H 2660 4810 60  0000 C CNN
+F 3 "" H 2660 4810 60  0000 C CNN
+	1    2650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R28
+U 1 1 60ED9931
+P 1650 6350
+F 0 "R28" V 1860 6210 60  0000 R TNN
+F 1 "1.8M" V 1660 6210 60  0000 R TNN
+F 2 "" H 1660 6210 60  0000 C CNN
+F 3 "" H 1660 6210 60  0000 C CNN
+	1    1650 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R29
+U 1 1 60ED9930
+P 1650 6950
+F 0 "R29" V 1860 6810 60  0000 R TNN
+F 1 "340k" V 1660 6810 60  0000 R TNN
+F 2 "" H 1660 6810 60  0000 C CNN
+F 3 "" H 1660 6810 60  0000 C CNN
+	1    1650 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Cap_Semi- C10
+U 1 1 60ED992F
+P 5650 5550
+F 0 "C10" V 5660 5360 60  0000 R TNN
+F 1 "100uF" V 5460 5360 60  0000 R TNN
+F 2 "" H 5460 5360 60  0000 C CNN
+F 3 "" H 5460 5360 60  0000 C CNN
+	1    5650 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R15
+U 1 1 60ED992E
+P 4750 1750
+F 0 "R15" V 4960 1610 60  0000 R TNN
+F 1 "270k" V 4760 1610 60  0000 R TNN
+F 2 "" H 4760 1610 60  0000 C CNN
+F 3 "" H 4760 1610 60  0000 C CNN
+	1    4750 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Cap_Semi- C9
+U 1 1 60ED992D
+P 5250 5550
+F 0 "C9" V 5260 5360 60  0000 R TNN
+F 1 "2.2uF" V 5160 5360 60  0000 R TNN
+F 2 "" H 5160 5360 60  0000 C CNN
+F 3 "" H 5160 5360 60  0000 C CNN
+	1    5250 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R27
+U 1 1 60ED992C
+P 4850 5950
+F 0 "R27" V 5060 5810 60  0000 R TNN
+F 1 "1.8M" V 4860 5810 60  0000 R TNN
+F 2 "" H 4860 5810 60  0000 C CNN
+F 3 "" H 4860 5810 60  0000 C CNN
+	1    4850 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R30
+U 1 1 60ED992B
+P 4850 7050
+F 0 "R30" V 5060 6910 60  0000 R TNN
+F 1 "200k" V 4860 6910 60  0000 R TNN
+F 2 "" H 4860 6910 60  0000 C CNN
+F 3 "" H 4860 6910 60  0000 C CNN
+	1    4850 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Header_8- P1
+U 1 1 60ED992A
+P 9450 5650
+F 0 "P1" H 9450 5650 60  0000 L BNN
+F 1 "Header 8" H 9450 4650 60  0000 L BNN
+F 2 "" H 9450 4650 60  0000 C CNN
+F 3 "" H 9450 4650 60  0000 C CNN
+	1    9450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R26
+U 1 1 60ED9929
+P 6150 5750
+F 0 "R26" V 6360 5610 60  0000 R TNN
+F 1 "1k" V 6160 5610 60  0000 R TNN
+F 2 "" H 6160 5610 60  0000 C CNN
+F 3 "" H 6160 5610 60  0000 C CNN
+	1    6150 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:LED2- D3
+U 1 1 60ED9928
+P 6350 6150
+F 0 "D3" V 6440 6270 60  0000 L BNN
+F 1 "LED2" V 6540 6270 60  0000 L BNN
+F 2 "" H 6540 6270 60  0000 C CNN
+F 3 "" H 6540 6270 60  0000 C CNN
+	1    6350 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Header_2- P2
+U 1 1 60ED9927
+P 7150 5750
+F 0 "P2" H 7150 5750 60  0000 L BNN
+F 1 "5V_OUTPUT" H 7150 5350 60  0000 L BNN
+F 2 "" H 7150 5350 60  0000 C CNN
+F 3 "" H 7150 5350 60  0000 C CNN
+	1    7150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger-schdoc-rescue:Cap_Pol3- IC
+U 1 1 60ED9926
+P 1250 2650
+F 0 "" H 1250 2650 50  0001 C CNN
+F 1 "" H 1250 2650 50  0001 C CNN
+F 2 "" H 1250 2650 50  0001 C CNN
+F 3 "" H 1250 2650 50  0001 C CNN
+	1    1250 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Cap_Pol3- IC
+U 1 1 60ED9925
+P 9050 2850
+F 0 "" H 9050 2850 50  0001 C CNN
+F 1 "" H 9050 2850 50  0001 C CNN
+F 2 "" H 9050 2850 50  0001 C CNN
+F 3 "" H 9050 2850 50  0001 C CNN
+	1    9050 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Cap_Pol3- IC
+U 1 1 60ED9924
+P 1150 5650
+F 0 "" H 1150 5650 50  0001 C CNN
+F 1 "" H 1150 5650 50  0001 C CNN
+F 2 "" H 1150 5650 50  0001 C CNN
+F 3 "" H 1150 5650 50  0001 C CNN
+	1    1150 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R21
+U 1 1 60ED9923
+P 4750 2450
+F 0 "R21" V 4960 2310 60  0000 R TNN
+F 1 "100k" V 4760 2310 60  0000 R TNN
+F 2 "" H 4760 2310 60  0000 C CNN
+F 3 "" H 4760 2310 60  0000 C CNN
+	1    4750 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:LED2- D2
+U 1 1 60ED9922
+P 4350 1550
+F 0 "D2" V 4440 1670 60  0000 L BNN
+F 1 "DONE" V 4540 1670 60  0000 L BNN
+F 2 "" H 4540 1670 60  0000 C CNN
+F 3 "" H 4540 1670 60  0000 C CNN
+	1    4350 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:LED2- D1
+U 1 1 60ED9921
+P 3650 1750
+F 0 "D1" V 3740 1870 60  0000 L BNN
+F 1 "CHRG/LBO" V 3840 1870 60  0000 L BNN
+F 2 "" H 3840 1870 60  0000 C CNN
+F 3 "" H 3840 1870 60  0000 C CNN
+	1    3650 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R18
+U 1 1 60ED9920
+P 3450 2450
+F 0 "R18" V 3660 2310 60  0000 R TNN
+F 1 "1k" V 3460 2310 60  0000 R TNN
+F 2 "" H 3460 2310 60  0000 C CNN
+F 3 "" H 3460 2310 60  0000 C CNN
+	1    3450 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R19
+U 1 1 60ED991F
+P 4150 2450
+F 0 "R19" V 4360 2310 60  0000 R TNN
+F 1 "1k" V 4160 2310 60  0000 R TNN
+F 2 "" H 4160 2310 60  0000 C CNN
+F 3 "" H 4160 2310 60  0000 C CNN
+	1    4150 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R24
+U 1 1 60ED991E
+P 8450 3750
+F 0 "R24" V 8660 3610 60  0000 R TNN
+F 1 "THERM" V 8560 3610 60  0000 R TNN
+F 2 "" H 8560 3610 60  0000 C CNN
+F 3 "" H 8560 3610 60  0000 C CNN
+	1    8450 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger-schdoc-rescue:Res3- R22
+U 1 1 60ED991D
+P 7850 3550
+F 0 "R22" V 8060 3410 60  0000 R TNN
+F 1 "1k" V 7860 3410 60  0000 R TNN
+F 2 "" H 7860 3410 60  0000 C CNN
+F 3 "" H 7860 3410 60  0000 C CNN
+	1    7850 3550
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

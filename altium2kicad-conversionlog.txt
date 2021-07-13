@@ -1,0 +1,17 @@
+Archive:  db/9200.zip
+  inflating: db/9200/charger.schdoc  
+  inflating: db/9200/._charger.schdoc  
+Loading charger.schdoc
+
+Done.
+Handling charger-schdoc/Root Entry/FileHeader.dat
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling charger.schdoc
+No unpacked .PcbDoc documents found. Trying to unpack it:
+Loading charger.schdoc
+
+Done.
+There were no unpacked PcbDoc files found.

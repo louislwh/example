@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name charger-schdoc-rescue)(type Legacy)(uri ${KIPRJMOD}/charger-schdoc-rescue.lib)(options "")(descr ""))
+)
