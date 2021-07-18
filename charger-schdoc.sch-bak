@@ -357,7 +357,7 @@ Text Notes 1050 4150 0    60   ~ 0
 5V Boost Converter (2A switch current)
 Text Label 4850 1950 0    60   ~ 0
 Vnode
-Text Notes 3750 950  0    60   ~ 0
+Text Notes 3500 900  0    60   ~ 0
 If Vnode < 1.21V, charging current is reduced
 Text Notes 7950 1950 0    60   ~ 0
 Voltage at R24 should be between 0.25V and 1.24V
